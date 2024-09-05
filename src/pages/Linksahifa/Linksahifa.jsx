@@ -3,17 +3,21 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 
 const Linksahifa = () => {
     return (
-        <div className='w-[100%] h-[100vh] flex flex-col items-center justify-center'>
-            <div>
-                <p className='text-[32px] font-[600]'>Facebook</p>
-                <button className='bg-blue-600 text-white px-[20px] py-[10px] rounded-md'>
-                    Registratsiya
-                </button>
-            </div>
-            <div className='mt-[20px]'>
-                <DropdownButton id="dropdown-basic-button" title="Ro'yxatdan o'ting yoki Facebook hisobingizga kiring">
-                    {/* Dropdown content can be added here */}
-                </DropdownButton>
+        <div>
+            <div className='bg-[#066CD2]'>
+                <div className='w-[80%] h-[82px] flex mx-[auto] my-0 justify-between'>
+                    <div className='flex items-center gap-[20px]'>
+                        <p className='text-[32px] font-[600] text-white'>Facebook</p>
+                        <button className='rounded-[5px] bg-green-600 text-white px-[10px] py-[5px]'>
+                            Registratsiya
+                        </button>
+                    </div>
+                    <div className='mt-[20px]'>
+                        <DropdownButton className='text-white' id="dropdown-basic-button" title="Ro'yxatdan o'ting yoki Facebook hisobingizga kiring">
+
+                        </DropdownButton>
+                    </div>
+                </div>
             </div>
         </div>
     );
